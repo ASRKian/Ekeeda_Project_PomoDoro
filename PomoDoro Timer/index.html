@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>PomoDoro Timer</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <h1 class="heading">PomoDoro</h1>
+            <div class="settings">
+                <!-- i tag -->
+                <button class="set">Settings</button>
+            </div>
+        </div>
+        <div class="midDiv">
+            <div class="timers">
+                <div class="timerOptions">
+                    <h2 class="pomo">Pomodoro</h2>
+                    <h2 class="short">Short Break</h2>
+                    <h2 class="long">Long Break</h2>
+                </div>
+                <div class="timer">
+                    <p class="minutes"></p>
+                    <p >:</p>
+                    <p class="seconds"></p>
+                </div>
+                <div class="btnDiv">
+                    <button class="start-btn">Start</button>
+                    <button class="reset-btn">Reset</button>
+                </div>
+            </div>
+            <div class="setDiv hide">
+                <h2 class="heading2">Timings</h2>
+                <div class="setTime">
+                    <p class="time">PomoDoro Time:</p>
+                    <input type="number" value="25" class="time1 time">
+                    <p class="time">Short Break Time:</p>
+                    <input type="number" value="5" class="time2 time">
+                    <p class="time">Long Break Time:</p>
+                    <input type="number" value="60" class="time3 time">
+                </div>
+                <div class="btnDiv">
+                    <button class="apply">Apply</button>
+                    <button class="cancel">Cancel</button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">©️ PomoDoro Web App. All rights are reserved by Lokendra Gupta.</div>
+    </div>
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>
